@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Blocker</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Website Blocker</h2>
+        </div>
+        <div class="form-group">
+            <label for="website">Add Website:</label>
+            <input type="text" id="website" placeholder="Enter website URL">
+        </div>
+        <div class="form-group">
+            <label for="start-time">Start Time:</label>
+            <input type="time" id="start-time" value="08:00">
+        </div>
+        <div class="form-group">
+            <label for="end-time">End Time:</label>
+            <input type="time" id="end-time" value="17:00">
+        </div>
+        <button class="btn" id="add-website">Add Website</button>
+        <div class="website-list">
+            <ul id="website-list"></ul>
+        </div>
+        <button class="btn" id="block-websites">Block Websites</button>
+    </div>
+
+    <script src="wb.js"></script>
+</body>
+</html>
